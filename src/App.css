@@ -1,0 +1,100 @@
+#root {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+.page {
+  position: relative;
+  background-color: #e1e1e1;
+  padding: 32px;
+  border-radius: 0 32px 0 0;
+  width: 512px;
+}
+
+.dots-container {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  mix-blend-mode: color-dodge;
+}
+
+
+
+.profile-container {
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 64px;
+  max-height: 64px;
+  min-width: 64px;
+  background-color: #3a3a3a;
+}
+
+.profile {
+  max-width: 76px;
+  max-height: 76px;
+  width: 100%;
+}
+
+
+
+.response-container {
+  background-color: #ededed;
+  border-radius: 0 16px 16px 16px;
+  width: fit-content;
+  padding: 12px 16px;
+  box-shadow: -2px 2px 0 #a4a3a4;
+}
+
+.response-container--player {
+  background-color: #d1bd95;
+  border-radius: 16px 0 16px 16px;
+  box-shadow: 2px 2px 0 #a4a3a4;
+}
+
+.response-text {
+  color: #3a3a3a;
+  font-size: 16px;
+}
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 768px;
+  overflow-y: scroll;
+  padding: 16px;
+
+  scrollbar-width: thin;
+  scrollbar-color: #cdcdcd #e1e1e1;
+}
+
+
+
+.blackswan-glass {
+  z-index: 11;
+  position: absolute;
+  max-height: 192px;
+  right: -140px;
+  top: -56px;
+
+}

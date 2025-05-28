@@ -1,0 +1,95 @@
+{
+    "0": {
+        "title": "Astral Express Family",
+        "flair": "Nameless together",
+        "dialog": {
+            "0": {
+                "userId": 0,
+                "text": "Hey Trailblazer!",
+                "options": [
+                    { "text": "Hi March!", "next": 1 },
+                    { "text": "Hmm?", "next": 1 }
+                ]
+            },
+            "1": {
+                "userId": 0,
+                "text": "Pom Pom is sleeping right now and i've been secretly taking pictures of them hehe",
+                "next": 2
+            },
+            "2": {
+                "userId": 0,
+                "text": "But its getting a little boring...",
+                "next": 4
+            },
+            "4": {
+                "userId": 0,
+                "text": "Hey! I have an idea. Lets train!",
+                "options": [
+                    { "text": "Sure! I'd love to!", "next": 5 },
+                    { "text": "B-but... I want to look at trash...", "next": 8}
+                ]
+            },
+            "5": {
+                "userId": 0,
+                "text": "Awesome! Don't want to dissapoint Master Yunli and Master Yanqing",
+                "next": 6
+            },
+            "6": {
+                "userId": 0,
+                "text": "Come meet me on the express",
+                "next": 7
+            },
+            "7": {
+                "userId": 0,
+                "text": "Oh- and i'll give you boba after!"
+            },
+            "8": {
+                "userId": 0,
+                "text": "Hmph! Fine i'll just ask Dan Hen-",
+                "next": 9
+            },
+            "9": {
+                "userId": 1,
+                "text": "I'm busy.",
+                "next": 10
+            },
+            "10": {
+                "userId": 0,
+                "text": "Wha- I didn't even finish!",
+                "next": 13
+            },
+            "13": {
+                "userId": 0,
+                "text": "Miss Himeko, do you have time?",
+                "next": 14
+            },
+            "14": {
+                "userId": 2,
+                "text": "Sorry March, working on some engine upgrades for the train.",
+                "next": 15
+            },
+            "15": {
+                "userId": 2,
+                "text": "Oh Stelle! don't forget to pick up some local coffee beans.",
+                "next": 16
+            },
+            "16": {
+                "userId": 2,
+                "text": "Curious to taste Amphoreuan coffee, they do have coffee... right?",
+                "next": 17
+            },
+            "17": {
+                "userId": 3,
+                "text": "Given the nature of Amphoreus and its peoples, it does seem likely they would have what we call 'coffee'. Perhaps, something similar.",
+                "next": 11
+            },
+            "11": {
+                "userId": 0,
+                "text": "I'll just have to train by myself. Hmph, Guess all this boba tea is for me!",
+                "options": [
+                    { "text": "Boba! Wait i'll train with you!", "next": 5}
+                ]
+            }
+        }
+    }
+}
