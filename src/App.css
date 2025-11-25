@@ -19,24 +19,6 @@
   width: 512px;
 }
 
-.dots-container {
-  z-index: 100;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.dot {
-  border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  mix-blend-mode: color-dodge;
-}
-
-
-
 .profile-container {
   border-radius: 100%;
   overflow: hidden;
@@ -55,9 +37,18 @@
   width: 100%;
 }
 
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 768px;
+  overflow-y: scroll;
+  padding: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: #cdcdcd #e1e1e1;
+}
 
-
-.response-container {
+.message-container {
   background-color: #ededed;
   border-radius: 0 16px 16px 16px;
   width: fit-content;
@@ -65,30 +56,40 @@
   box-shadow: -2px 2px 0 #a4a3a4;
 }
 
-.response-container--player {
+.message-container--player {
   background-color: #d1bd95;
   border-radius: 16px 0 16px 16px;
   box-shadow: 2px 2px 0 #a4a3a4;
 }
 
-.response-text {
+.message-text {
   color: #3a3a3a;
   font-size: 16px;
 }
 
-.messages-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  max-height: 768px;
-  overflow-y: scroll;
-  padding: 16px;
-
-  scrollbar-width: thin;
-  scrollbar-color: #cdcdcd #e1e1e1;
+.pending-message-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background-color: #3a3a3a;
+  opacity: 0;
+  animation: pendingMessageAnim 2s ease-in-out infinite;
 }
 
 
+@keyframes pendingMessageAnim {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}
 
 .blackswan-glass {
   z-index: 11;
@@ -96,5 +97,4 @@
   max-height: 192px;
   right: -140px;
   top: -56px;
-
 }

@@ -1,35 +1,27 @@
-
-    
 {
-    "0": {
-        "id": 0,
-        "name": "March 7th",
-        "flair": "Today is also March 7th~",
-        "icon": "../marchprofile.png",
-        "speed": 60,
-        "reactions": {
-            "long": "Um... hey? its not nice to make a cute girl wait!"
-        }
-    },
-    "1": {
-        "id": 1,
-        "name": "Dan Heng",
-        "flair": "For anything related to the data bank, come find me.",
-        "icon": "../danhengprofile.png",
-        "speed": 40
-    },
-    "2": {
-        "id": 2,
-        "name": "Himeko",
-        "flair": "I can survive without water, but coffee is my lifeblood",
-        "icon": "../himekoprofile.png",
-        "speed": 50
-    },
-    "3": {
-        "id": 2,
-        "name": "Welt",
-        "flair": "Everyone on the Express, please constantly keep in touch",
-        "icon": "../weltprofile.png",
-        "speed": 40
-    }
+  "0": {
+    "name": "Stelle",
+    "flair": "Make a choice you won't regret",
+    "icon": "../stelleprofile.png"
+  },
+  "1": {
+    "name": "March 7th",
+    "flair": "Today is also March 7th~",
+    "icon": "../marchprofile.png"
+  },
+  "2": {
+    "name": "Dan Heng",
+    "flair": "For anything related to the data bank, come find me.",
+    "icon": "../danhengprofile.png"
+  },
+  "3": {
+    "name": "Himeko",
+    "flair": "I can survive without water, but coffee is my lifeblood",
+    "icon": "../himekoprofile.png"
+  },
+  "4": {
+    "name": "Welt",
+    "flair": "Everyone on the Express, please constantly keep in touch",
+    "icon": "../weltprofile.png"
+  }
 }

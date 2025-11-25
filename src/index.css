@@ -1,23 +1,28 @@
 :root {
-  font-family: 'DINPro-Medium', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DINPro-Medium", system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: #696969;
   background-color: #030b0e;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-}
+a {}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   color: #171717;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin: 0;
   color: #696969;
 }
@@ -36,48 +41,11 @@ body {
 }
 
 button {
-  font-family: 'DINPro-Medium', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DINPro-Medium", system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
-
-.row {
-  display: flex;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
-.row-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.align-end {
-  align-items: end;
-}
-
-.text-end {
-  text-align: end;
-}
-
-
-
-.gap-sm {
-  gap: 8px;
-}
-
-.gap {
-  gap: 16px;
-}
-
-.gap-lg {
-  gap: 32px;
-}
-
 
 .divider {
   border: none;
@@ -85,18 +53,16 @@ button {
   background-color: #a4a3a4;
 }
 
-
-
 @font-face {
-  font-family: 'DINPro-Bold';
-  src: url('./assets/fonts/DINPro-Bold.ttf') format('truetype');
+  font-family: "DINPro-Bold";
+  src: url("./assets/fonts/DINPro-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'DINPro-Medium';
-  src: url('./assets/fonts/PFDinTextPro-Medium.ttf') format('truetype');
+  font-family: "DINPro-Medium";
+  src: url("./assets/fonts/PFDinTextPro-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
